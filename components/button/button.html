@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="/prism.css">
+    <title>alert</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar-container">
+            <div class="navbar-library-name"><a href="/index.html">bit UI</a></div>
+            <div class="navbar-side-links">
+                <a href="/index.html">Home</a>
+                <a href="#">Github</a>
+            </div>
+        </nav>
+        <div class="document-container">
+            <div class="hamburger-sidebar">
+                <label for="hamburger">&#9776;</label>
+                <input type="checkbox" id="hamburger"/>
+            </div>
+            <aside class="sidebar">
+                <li>Components</li>
+                <ul class="component-list">
+                    <a href="/components/avatar/avatar.html">Avatar</a>
+                    <a href="/components/alert/alert.html">Alert</a>
+                    <a href="/components/badge/badge.html">Badge</a>
+                    <a class="active-item" href="#">Button</a>
+                    <a href="">Card</a>
+                    <a href="">Image</a>
+                    <a href="">Input</a>
+                    <a href="">Text Utilities</a>
+                    <a href="">List</a>
+                    <a href="">Navigation</a>
+                    <a href="">Modal</a>
+                    <a href="">Rating</a>
+                    <a href="">Toast</a>
+                    <a href="">Grid</a>
+                    <a href="">Navigation</a>
+                    <a href="">Slider</a>
+                </ul>
+            </aside>
+            <main class="document-main">
+                <div class="component-defination">
+                    <h1 class="main-component">Button</h1>
+                    <p>
+                        Button is clickable entity which upon clicks performs some action.
+                    </p>
+                    <div class="pre-container"><pre><code class="language-markup">
+    <link rel="stylesheet" href="https://bitui.netlify.app/components/button/button.css">
+
+                                        </code></pre></div>
+                </div>
+                <div class="break"></div>
+                <div class="component-type">
+                    <div class="component-type-defination">
+                        <h3 class="main-component">Normal Button</h3>
+                        <p>
+                            
+                            Normal Button is standard button which performs any kind of action. Below are few examples of Primary button with colors.
+                        </p>
+                    </div>
+                    <div class="component-sample flex-row bgm-secondary">
+                        <button class="btn btn-danger">Click me</button>
+                        <button class="btn btn-warning">Click me</button>
+                        <button class="btn btn-success">Click me</button>
+                    </div>
+                    
+                    <div class="pre-container"><pre><code class="language-markup">
+    <button class="btn btn-danger">Click me</button>
+    <button class="btn btn-warning">Click me</button>
+    <button class="btn btn-success">Click me</button>
+                    </code></pre></div>      
+                </div>
+                <div class="break"></div>
+                <div class="component-type">
+                    <div class="component-type-defination">
+                        <h3 class="main-component">Link button</h3>
+                        <p>
+                            Link buttons are mainly links which on clicking open a page corresponding to the url in the href attribute of anchor tag.
+                        </p>
+                    </div>
+                    <div class="component-sample flex-row bgm-secondary">
+                        <a href="#"class="btn btn-danger">Home</a>
+                        <a href="#" class="btn btn-warning">About</a>
+                        <a href="#" class="btn btn-success">Biblography</a> 
+                    </div>
+                    
+                    <div class="pre-container"><pre><code class="language-markup">
+    <a href="#"class="btn btn-danger">Home</a>
+    <a href="#" class="btn btn-warning">About</a>
+    <a href="#" class="btn btn-success">Biblography</a>
+                    </code></pre></div>      
+                </div>
+                <div class="break"></div>
+                <div class="component-type">
+                    <div class="component-type-defination">
+                        <h3 class="main-component">Icon button</h3>
+                        <p>
+                            Icon buttons have icon/image/font awesome element in its content. Checkout some of the examples
+                        </p>
+                    </div>
+                    <div class="component-sample flex-row bgm-secondary">
+                        <button href="#"class="btn btn-danger flex-row"><img class="btn-icon" src="home.svg">Home</button>
+                        <button href="#" class="btn btn-warning flex-row"><img class="btn-icon" src="about.svg">About</button>
+                        <button href="#" class="btn btn-success flex-row"><img class="btn-icon" src="support.svg">Support</button> 
+                    </div>
+                    
+                    <div class="pre-container"><pre><code class="language-markup">
+    <button href="#"class="btn btn-danger flex-row">
+        <img class="btn-icon" src="home.svg">Home
+    </button>
+    <button href="#" class="btn btn-warning flex-row">
+        <img class="btn-icon" src="about.svg">About
+    </button>
+    <button href="#" class="btn btn-success flex-row">
+        <img class="btn-icon" src="support.svg">Support
+    </button> 
+                    </code></pre></div>      
+                </div>
+                <div class="break"></div>
+                <div class="component-type">
+                    <div class="component-type-defination">
+                        <h3 class="main-component">Floating Action button</h3>
+                        <p>
+                            A floating action button (FAB) performs the primary, or most common, action on a screen
+                        </p>
+                    </div>
+                    <div class="component-sample flex-row bgm-secondary">
+                        <div class="btn-fab-container">
+                            <img src="/components/avatar/avatar.jpg" class="img-fab" alt="">
+                            <img src="home.svg" class="btn-fab" alt="" srcset="">
+                        </div>
+                    </div>
+                    
+                    <div class="pre-container"><pre><code class="language-markup">
+    <div class="btn-fab-container">
+        <img src="/components/avatar/avatar.jpg" class="img-fab" alt="">
+        <img src="home.svg" class="btn-fab" alt="" srcset="">
+    </div>
+                    </code></pre></div>      
+                </div>
+                <div class="break"></div>
+                <div class="next-component">
+                    <a href="">Card ></a>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="/prism.js"></script>
+</body>
+</html>

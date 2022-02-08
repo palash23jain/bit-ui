@@ -55,7 +55,7 @@ p {
   margin: var(--s4) 0;
 }
 
-.flex {
+.flex-row {
   display: flex;
   align-items: center;
   gap: var(--s3);
