@@ -1,0 +1,32 @@
+@import "./common-css/reset.css";
+@import "./common-css/style-guide.css";
+@import "./common-css//navbar.css";
+
+.main-container{
+    margin-top: var(--s6);
+    display: flex;
+    padding: 0 10%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img{
+    width: 300px;
+}
+
+.main-heading{
+    font-size: calc(var(--f1) + 2vw);
+    margin-bottom: var(--s4);
+}
+.main-subheading{
+    font-size: calc(var(--f1) + 1vw);
+}
+
+.main-text{
+    flex-basis: 60%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: var(--s4);
+}

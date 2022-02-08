@@ -1,0 +1,31 @@
+@import "../../common-css/reset.css";
+@import "../../common-css/style-guide.css";
+@import "../../common-css/navbar.css";
+@import "../../common-css/documentation.css";
+
+.avatar {
+  border-radius: 50%;
+}
+
+.avatar-sm {
+  width: 5rem;
+  height: 5rem;
+}
+
+.avatar-md {
+  width: 7rem;
+  height: 7rem;
+}
+
+.avatar-lg {
+  width: 10rem;
+  height: 10rem;
+}
+
+.avatar-txt {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary);
+}
