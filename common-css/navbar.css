@@ -1,5 +1,5 @@
 .navbar-library-name {
-  font-size: var(--f7);
+  font-size: var(--fontSize7);
   color: var(--primary);
 }
 
@@ -8,7 +8,7 @@
 }
 
 .navbar-container {
-  background-color: var(--secondary);
+  background-color: var(--spacingecondary);
   padding: 0 5%;
   display: flex;
   justify-content: space-between;
@@ -16,13 +16,13 @@
 }
 
 .navbar-side-links {
-  font-size: var(--f5);
+  font-size: var(--fontSize5);
   display: flex;
   align-items: center;
 }
 
 .navbar-side-links a {
   text-decoration: none;
-  margin-right: var(--s4);
+  margin-right: var(--spacing4);
   color: var(--gun-metal);
 }

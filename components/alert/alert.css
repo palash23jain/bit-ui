@@ -5,9 +5,9 @@
 
 .alert-container {
   border: 1px solid black;
-  border-radius: var(--s2);
+  border-radius: var(--spacing2);
   width: 100%;
-  padding: var(--s2);
+  padding: var(--spacing2);
   color: var(--background);
 }
 
@@ -20,7 +20,7 @@
 }
 
 .alert-success {
-  background-color: var(--success);
+  background-color: var(--spacinguccess);
 }
 
 .alert-primary {
@@ -38,8 +38,8 @@
 }
 
 .alert-outline-success {
-  border: 1px solid var(--success);
-  color: var(--success);
+  border: 1px solid var(--spacinguccess);
+  color: var(--spacinguccess);
 }
 
 .alert-outline-primary {

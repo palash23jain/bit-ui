@@ -1,8 +1,8 @@
 .document-container {
   display: grid;
   grid-template-columns: 20% 80%;
-  font-size: var(--f5);
-  margin-top: var(--s4);
+  font-size: var(--fontSize5);
+  margin-top: var(--spacing4);
   padding: 0 5%;
 }
 
@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: column;
   font-family: "Playfair", sans-serif;
-  padding-left: var(--s2);
+  padding-left: var(--spacing2);
 }
 .sidebar li {
   list-style: none;
@@ -19,12 +19,12 @@
 .component-list a {
   text-decoration: none;
   color: var(--gun-metal);
-  margin: var(--s1) 0;
-  border-radius: var(--s2);
+  margin: var(--spacing1) 0;
+  border-radius: var(--spacing2);
 }
 .component-list a:hover {
   color: var(--primary);
-  background-color: var(--secondary);
+  background-color: var(--spacingecondary);
 }
 
 .component-list a.active-item {
@@ -38,13 +38,13 @@
 }
 
 .main-component {
-  margin-bottom: var(--s4);
+  margin-bottom: var(--spacing4);
 }
 
 .component-sample {
-  margin: var(--s5) 0;
+  margin: var(--spacing5) 0;
   border: 1px solid var(--gun-metal);
-  padding: var(--s2) 5%;
+  padding: var(--spacing2) 5%;
 }
 
 .pre-containter {
