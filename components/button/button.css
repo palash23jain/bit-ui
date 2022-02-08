@@ -1,0 +1,42 @@
+@import "../../common-css/reset.css";
+@import "../../common-css/style-guide.css";
+@import "../../common-css/navbar.css";
+@import "../../common-css/documentation.css";
+.btn {
+  width: max-content;
+  padding: var(--s1) var(--s2);
+  border-radius: var(--s2);
+  font-size: var(--f4);
+  color: var(--background);
+  text-decoration: none;
+}
+
+.btn-danger {
+  background-color: var(--danger);
+}
+.btn-warning {
+  background-color: var(--warning);
+}
+.btn-success {
+  background-color: var(--success);
+}
+
+.btn-icon {
+  width: var(--s4);
+  display: inline-block;
+}
+
+.img-fab {
+  width: 300px;
+}
+.btn-fab-container {
+  position: relative;
+}
+
+.btn-fab {
+  width: var(--s4);
+  position: absolute;
+  left: var(--s1);
+  top: var(--s1);
+  cursor: pointer;
+}

@@ -9,8 +9,12 @@ html {
   --secondary: #8eecf5;
   --text: #9c92a3;
   --background: whitesmoke;
+  --background-sec: #e4dce9;
   --heading: #221d23;
   --gun-metal: #22333b;
+  --danger: #e22f2f;
+  --warning: orange;
+  --success: rgb(58, 184, 58);
 
   /* typography */
 
@@ -51,12 +55,21 @@ p {
   margin: var(--s4) 0;
 }
 
-.flex {
+.flex-row {
   display: flex;
   align-items: center;
   gap: var(--s3);
 }
 
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s3);
+}
+
+.bgm-secondary {
+  background-color: var(--background-sec);
+}
 .font-f4 {
   font-size: var(--f4);
 }

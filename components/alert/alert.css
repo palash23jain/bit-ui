@@ -1,0 +1,48 @@
+@import "../../common-css/reset.css";
+@import "../../common-css/style-guide.css";
+@import "../../common-css/navbar.css";
+@import "../../common-css/documentation.css";
+
+.alert-container {
+  border: 1px solid black;
+  border-radius: var(--s2);
+  width: 100%;
+  padding: var(--s2);
+  color: var(--background);
+}
+
+.alert-warning {
+  background-color: var(--warning);
+}
+
+.alert-danger {
+  background-color: var(--danger);
+}
+
+.alert-success {
+  background-color: var(--success);
+}
+
+.alert-primary {
+  background-color: var(--primary);
+}
+
+.alert-outline-warning {
+  border: 1px solid var(--warning);
+  color: var(--warning);
+}
+
+.alert-outline-danger {
+  border: 1px solid var(--danger);
+  color: var(--danger);
+}
+
+.alert-outline-success {
+  border: 1px solid var(--success);
+  color: var(--success);
+}
+
+.alert-outline-primary {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}
