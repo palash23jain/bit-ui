@@ -1,0 +1,26 @@
+@import "../../common-css/reset.css";
+@import "../../common-css/style-guide.css";
+@import "../../common-css/navbar.css";
+@import "../../common-css/documentation.css";
+@import "../avatar/avatar.css";
+
+.badge-container {
+  position: relative;
+}
+.badge {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  top: 7rem;
+  left: 7rem;
+}
+
+.plain-text {
+  display: inline-block;
+}
+
+.badge-text {
+  display: inline-block;
+  background-color: var(--text);
+  border-radius: 10%;
+}

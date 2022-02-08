@@ -1,0 +1,28 @@
+.navbar-library-name {
+  font-size: var(--f7);
+  color: var(--primary);
+}
+
+.navbar-library-name a {
+  text-decoration: none;
+}
+
+.navbar-container {
+  background-color: var(--secondary);
+  padding: 0 5%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.navbar-side-links {
+  font-size: var(--f5);
+  display: flex;
+  align-items: center;
+}
+
+.navbar-side-links a {
+  text-decoration: none;
+  margin-right: var(--s4);
+  color: var(--gun-metal);
+}
