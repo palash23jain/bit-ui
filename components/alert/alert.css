@@ -20,7 +20,7 @@
 }
 
 .alert-success {
-  background-color: var(--spacinguccess);
+  background-color: var(--success);
 }
 
 .alert-primary {
@@ -38,8 +38,8 @@
 }
 
 .alert-outline-success {
-  border: 1px solid var(--spacinguccess);
-  color: var(--spacinguccess);
+  border: 1px solid var(--success);
+  color: var(--success);
 }
 
 .alert-outline-primary {

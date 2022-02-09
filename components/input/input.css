@@ -1,0 +1,27 @@
+@import "../../common-css/reset.css";
+@import "../../common-css/style-guide.css";
+@import "../../common-css/navbar.css";
+@import "../../common-css/documentation.css";
+
+form {
+  width: 60%;
+}
+.form-input {
+  width: 100%;
+  border-radius: var(--spacing1);
+  height: var(--spacing5);
+  font-size: var(--fontSize3);
+  padding: var(--spacing1);
+}
+.form-label {
+  display: block;
+  font-size: var(--fontSize4);
+}
+
+.validation-success {
+  border: 1px solid var(--success);
+}
+
+.validation-fail {
+  border: 1px solid var(--danger);
+}

@@ -1,0 +1,17 @@
+@import "../../common-css/reset.css";
+@import "../../common-css/style-guide.css";
+@import "../../common-css/navbar.css";
+@import "../../common-css/documentation.css";
+
+.img-container {
+  width: 80%;
+}
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+.img-round {
+  max-width: 80%;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+}
