@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="avatar.css">
+    <link rel="stylesheet" href="input.css">
     <link rel="stylesheet" href="/prism.css">
-    <title>avatar</title>
+    <title>input</title>
 </head>
 
 <body>
@@ -27,13 +27,13 @@
             <aside class="sidebar">
                 <li>Components</li>
                 <ul class="component-list">
-                    <a class="active-item" href="#">Avatar</a>
+                    <a href="/components/avatar/avatar.html">Avatar</a>
                     <a href="/components/alert/alert.html">Alert</a>
-                    <a href="/components//badge/badge.html">Badge</a>
+                    <a href="/components/badge/badge.html">Badge</a>
                     <a href="/components/button/button.html">Button</a>
                     <a href="">Card</a>
-                    <a href="/components/image/image.html">Image</a>
-                    <a href="/components/input/input.html">Input</a>
+                    <a href="">Image</a>
+                    <a class="active-item" href="">Input</a>
                     <a href="">Text Utilities</a>
                     <a href="">List</a>
                     <a href="">Navigation</a>
@@ -47,14 +47,13 @@
             </aside>
             <main class="document-main">
                 <div class="component-defination">
-                    <h1 class="main-component">Avatar</h1>
+                    <h1 class="main-component">Input</h1>
                     <p>
-                        Avatars are custom component, and are typically used to display a user profile as a picture, an
-                        icon, or short text.
+                        Input is a very important element for interating with end user
                     </p>
                     <div class="pre-container">
                         <pre><code class="language-markup">
-    <link rel="stylesheet" href="https://bitui.netlify.app/components/avatar/avatar.css">
+    <link rel="stylesheet" href="https://bitui.netlify.app/components/input/input.css">
 
                                         </code></pre>
                     </div>
@@ -62,54 +61,58 @@
                 <div class="break"></div>
                 <div class="component-type">
                     <div class="component-type-defination">
-                        <h3 class="main-component">Profile Avatar</h3>
-                        <p>
-                            Profile Avatar is having picture as display with different sizes as shown below
-                        </p>
+                        <h3 class="main-component">Form Input</h3>
+                        <p>Below is an example basic form inputs</p>
                     </div>
-                    <div class="component-sample flex-row">
-                        <img class="avatar avatar-sm" src="avatar.jpg" />
-                        <img class="avatar avatar-md" src="avatar.jpg" />
-                        <img class="avatar avatar-lg" src="avatar.jpg" />
+                    <div class="component-sample flex-row bgm-secondary">
+                        <form>
+                            <label class="form-label" for="email">Email</label>
+                            <input type="text" class="form-input">
+                            <label class="form-label" for="email">Password</label>
+                            <input type="text" class="form-input">
+                        </form>
                     </div>
 
                     <div class="pre-container">
                         <pre><code class="language-markup">
-    <img class="avatar avatar-sm"
-        src="avatar.jpg"/>
-    <img class="avatar avatar-md" 
-        src="avatar.jpg"/>
-    <img class="avatar avatar-lg" 
-        src="avatar.jpg"/>
+    <form>
+        <label class="form-label" for="email">Email</label>
+        <input type="text" class="form-input">
+        <label class="form-label" for="email">Password</label>
+        <input type="text" class="form-input">
+    </form>
                     </code></pre>
                     </div>
                 </div>
                 <div class="break"></div>
                 <div class="component-type">
                     <div class="component-type-defination">
-                        <h3 class="main-component">Text Avatar</h3>
-                        <p>
-                            Text Avatar can display initial letters of user's name with different sizes as shown below
-                        </p>
+                        <h3 class="main-component">Input validation</h3>
+                        <p>Below is an example of Input with different validation styles</p>
                     </div>
-                    <div class="component-sample flex-row">
-                        <div class="avatar avatar-sm avatar-txt">Hi</div>
-                        <div class="avatar avatar-md avatar-txt">Hi</div>
-                        <div class="avatar avatar-lg avatar-txt">Hi</div>
-
+                    <div class="component-sample flex-row bgm-secondary">
+                        <form>
+                            <label class="form-label" for="email">Email</label>
+                            <input type="text" class="form-input validation-success">
+                            <label class="form-label" for="email">Password</label>
+                            <input type="text" class="form-input validation-fail">
+                        </form>
                     </div>
-
                     <div class="pre-container">
                         <pre><code class="language-markup">
-    <div class="avatar avatar-sm avatar-txt">Hi</div>
-    <div class="avatar avatar-md avatar-txt">Hi</div>
-    <div class="avatar avatar-lg avatar-txt">Hi</div>
+    <form>
+        <label class="form-label" for="email">Email</label>
+        <input type="text" class="form-input validation-success">
+        <label class="form-label" for="email">Password</label>
+        <input type="text" class="form-input validation-fail">
+    </form>
                     </code></pre>
                     </div>
                 </div>
                 <div class="break"></div>
+
                 <div class="next-component">
-                    <a href="">Alert ></a>
+                    <a href="">Text Utilities ></a>
                 </div>
             </main>
         </div>

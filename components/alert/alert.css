@@ -5,9 +5,9 @@
 
 .alert-container {
   border: 1px solid black;
-  border-radius: var(--s2);
+  border-radius: var(--spacing2);
   width: 100%;
-  padding: var(--s2);
+  padding: var(--spacing2);
   color: var(--background);
 }
 
