@@ -1,0 +1,18 @@
+@import "../../common-css/reset.css";
+@import "../../common-css/style-guide.css";
+@import "../../common-css/navbar.css";
+@import "../../common-css/documentation.css";
+
+.list-items li {
+  list-style: none;
+  margin: var(--spacing1);
+  font-size: var(--fontSize4);
+}
+.list-items {
+  margin: 0 var(--spacing3);
+}
+.list-head {
+  font-weight: bold;
+  margin: var(--spacing1);
+  font-size: var(--fontSize5);
+}
