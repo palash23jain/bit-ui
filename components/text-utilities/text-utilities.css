@@ -1,0 +1,44 @@
+@import "../../common-css/reset.css";
+@import "../../common-css/style-guide.css";
+@import "../../common-css/navbar.css";
+@import "../../common-css/documentation.css";
+
+.heading-1 {
+  font-family: "Playfair", sans-serif;
+  font-size: var(--fontSize8);
+  font-weight: bold;
+}
+
+.heading-2 {
+  font-family: "Playfair", sans-serif;
+  font-size: var(--fontSize7);
+  font-weight: bold;
+}
+
+.heading-3 {
+  font-family: "Playfair", sans-serif;
+  font-size: var(--fontSize6);
+  font-weight: bold;
+}
+
+.small-1 {
+  font-family: "Playfair", sans-serif;
+  font-size: var(--fontSize1);
+}
+
+.small-2 {
+  font-family: "Playfair", sans-serif;
+  font-size: var(--fontSize2);
+}
+
+.gray-text {
+  font-family: "Playfair", sans-serif;
+  font-size: var(--fontSize4);
+  color: var(--text);
+}
+
+.center-text {
+  font-family: "Playfair", sans-serif;
+  font-size: var(--fontSize4);
+  text-align: center;
+}
