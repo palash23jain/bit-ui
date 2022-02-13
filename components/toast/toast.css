@@ -1,0 +1,5 @@
+.toast {
+  background-color: var(--secondary);
+  color: var(--primary);
+  text-align: center;
+}

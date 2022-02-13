@@ -1,0 +1,36 @@
+.navbar-container {
+  display: flex;
+  border: 1px solid black;
+  background-color: var(--secondary);
+  padding: var(--spacing2);
+  justify-content: space-between;
+}
+
+.navbar-title {
+  align-self: center;
+}
+
+.navbar-search-input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  width: 20rem;
+  border-radius: var(--spacing4);
+  padding: 0;
+  height: var(--spacing5);
+}
+
+.navbar-search-input::placeholder {
+  padding: 0 var(--spacing2);
+}
+
+.navbar-items {
+  display: flex;
+  width: 20rem;
+  justify-content: space-evenly;
+}
+
+.navbar-item {
+  width: var(--fontSize4);
+}

@@ -1,8 +1,3 @@
-@import "../../common-css/reset.css";
-@import "../../common-css/style-guide.css";
-@import "../../common-css/navbar.css";
-@import "../../common-css/documentation.css";
-
 .avatar {
   border-radius: 50%;
 }
@@ -27,5 +22,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--spacingecondary);
+  background-color: var(--secondary);
 }
