@@ -1,6 +1,6 @@
 @import "./reset.css";
 @import "./style-guide.css";
-@import "./navbar.css";
+@import "./main-navbar.css";
 @import "./documentation.css";
 @import "../components/alert/alert.css";
 @import "../components/avatar/avatar.css";
@@ -10,3 +10,4 @@
 @import "../components/input/input.css";
 @import "../components/list/list.css";
 @import "../components/text-utilities/text-utilities.css";
+@import "../components/navigation/navigation.css";

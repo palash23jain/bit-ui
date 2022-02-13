@@ -1,6 +1,6 @@
 @import "./common-css/reset.css";
 @import "./common-css/style-guide.css";
-@import "./common-css//navbar.css";
+@import "./common-css//main-navbar.css";
 
 .main-container {
   margin-top: var(--spacing6);
