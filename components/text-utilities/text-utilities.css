@@ -6,13 +6,13 @@
 
 .heading-2 {
   font-family: "Playfair", sans-serif;
-  font-size: var(--fontSize7);
+  font-size: var(--fontSize6);
   font-weight: bold;
 }
 
 .heading-3 {
   font-family: "Playfair", sans-serif;
-  font-size: var(--fontSize6);
+  font-size: var(--fontSize4);
   font-weight: bold;
 }
 
