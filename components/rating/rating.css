@@ -1,0 +1,17 @@
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  display: flex;
+  justify-content: left;
+}
+.star-item {
+  display: inline-block;
+  position: relative;
+  width: var(--spacing4);
+}
+.star-item:hover:before,
+.star-item:hover ~ .star-item:before {
+  content: "\2605";
+  color: goldenrod;
+  position: absolute;
+}
