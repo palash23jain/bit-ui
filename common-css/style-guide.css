@@ -6,7 +6,7 @@ html {
 /* colors */
 :root {
   --primary: rgb(127, 36, 163);
-  --spacingecondary: #8eecf5;
+  --secondary: #8eecf5;
   --text: #9c92a3;
   --background: whitesmoke;
   --background-sec: #e4dce9;

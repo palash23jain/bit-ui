@@ -24,7 +24,7 @@
 }
 .component-list a:hover {
   color: var(--primary);
-  background-color: var(--spacingecondary);
+  background-color: var(--secondary);
 }
 
 .component-list a.active-item {

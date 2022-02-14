@@ -1,0 +1,33 @@
+.modal-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: var(--spacing4);
+}
+.modal-content {
+  width: 60%;
+  border: 1px solid var(--heading);
+  padding: var(--spacing4);
+  background-color: var(--background);
+  text-align: center;
+}
+
+.modal-plain-text {
+  font-size: var(--fontSize3);
+  margin: var(--spacing4);
+}
+
+.modal-heading {
+  margin: var(--spacing4);
+}
+
+.modal-close {
+  display: flex;
+  justify-content: right;
+}
+
+.modal-close-icon {
+  cursor: pointer;
+}
