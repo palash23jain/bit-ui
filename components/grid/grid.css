@@ -1,0 +1,18 @@
+.grid-col-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-col-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.section1 {
+  background-color: var(--danger);
+}
+.section2 {
+  background-color: var(--warning);
+}
+.section3 {
+  background-color: var(--success);
+}
