@@ -16,6 +16,12 @@
   font-weight: bold;
 }
 
+.heading-4 {
+  font-family: "Playfair", sans-serif;
+  font-size: var(--fontSize3);
+  font-weight: bold;
+}
+
 .small-1 {
   font-family: "Playfair", sans-serif;
   font-size: var(--fontSize1);
