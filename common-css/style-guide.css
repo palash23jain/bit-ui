@@ -89,3 +89,7 @@ p {
 .font-f8 {
   font-size: var(--fontSize8);
 }
+
+.bold {
+  font-weight: bold;
+}
