@@ -29,6 +29,7 @@
   display: flex;
   width: 20rem;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .navbar-item {
