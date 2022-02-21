@@ -21,6 +21,8 @@
   color: var(--gun-metal);
   margin: var(--spacing1) 0;
   border-radius: var(--spacing2);
+  padding: 0 var(--spacing2);
+  font-size: var(--fontSize4);
 }
 .component-list a:hover {
   color: var(--primary);

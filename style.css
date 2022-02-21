@@ -2,29 +2,33 @@
 @import "./common-css/style-guide.css";
 @import "./common-css//main-navbar.css";
 
-.main-container {
+
+.main-container{
   margin-top: var(--spacing6);
-  display: flex;
   padding: 0 10%;
-  flex-wrap: wrap;
+}
+.main-container-intro{
+  margin-bottom: var(--spacing4);
+
+}
+.image-container{
+  display: flex;
   justify-content: center;
 }
-
-img {
-  width: 300px;
+.image-container > img {
+  width: 30rem;
 }
 
-.main-heading {
+.main-heading-intro {
+  color: var(--primary);
   font-size: calc(var(--fontSize1) + 2vw);
   margin-bottom: var(--spacing4);
 }
-.main-subheading {
+.main-subheading-intro {
   font-size: calc(var(--fontSize1) + 1vw);
 }
 
-.main-text {
-  flex-basis: 60%;
-  flex-grow: 1;
+.main-text-intro {
   display: flex;
   flex-direction: column;
   justify-content: center;
