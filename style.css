@@ -2,27 +2,32 @@
 @import "./common-css/style-guide.css";
 @import "./common-css//main-navbar.css";
 
-.main-container {
+
+.main-container{
   margin-top: var(--spacing6);
-  display: flex;
   padding: 0 10%;
+}
+.main-container-intro{
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
+  margin-bottom: var(--spacing4);
 
-img {
+}
+.main-container > img {
   width: 300px;
 }
 
-.main-heading {
+.main-heading-intro {
+  color: var(--primary);
   font-size: calc(var(--fontSize1) + 2vw);
   margin-bottom: var(--spacing4);
 }
-.main-subheading {
+.main-subheading-intro {
   font-size: calc(var(--fontSize1) + 1vw);
 }
 
-.main-text {
+.main-text-intro {
   flex-basis: 60%;
   flex-grow: 1;
   display: flex;
@@ -30,3 +35,7 @@ img {
   justify-content: center;
   padding-top: var(--spacing4);
 }
+
+/* .pre-container{
+  max-width: 70rem;
+} */
