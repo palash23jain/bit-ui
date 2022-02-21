@@ -9,7 +9,10 @@
 }
 .main-container-intro{
   margin-bottom: var(--spacing4);
-
+  text-align: center;
+}
+.main-container-installation{
+  text-align: center;
 }
 .image-container{
   display: flex;
@@ -26,6 +29,7 @@
 }
 .main-subheading-intro {
   font-size: calc(var(--fontSize1) + 1vw);
+  text-align: justify;
 }
 
 .main-text-intro {
@@ -33,4 +37,8 @@
   flex-direction: column;
   justify-content: center;
   padding-top: var(--spacing4);
+}
+
+.pre-container{
+  margin: var(--spacing4) 0;
 }
