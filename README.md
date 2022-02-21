@@ -11,7 +11,7 @@ Your go to CSS framework is here to help you build awesome UI.
 
 ## Demo
 
-Image or gif
+<img src="/assets/bitUI-look.png" width="600"/>
 
 
 ## Components
